@@ -6,10 +6,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
-public class TaskOneA extends BasePage {
+public class TaskOne extends BasePage {
 
     @Before
     public void install(){
@@ -20,6 +19,7 @@ public class TaskOneA extends BasePage {
     public void cleanUP(){
         driver.close();
     }
+
 
     @Test
     public void test001_() {
@@ -35,6 +35,7 @@ public class TaskOneA extends BasePage {
                 .clickToCart()
                 .isElementPresent(By.xpath("//*[@class='product-name']"));
     }
+
     @Test
     public void test002 (){
         driver.get("http://demowebshop.tricentis.com/build-your-own-expensive-computer-2");
@@ -47,10 +48,7 @@ public class TaskOneA extends BasePage {
                 .addToCart()
                 .clickToCart()
                 .remoteForCart()
-                .remoteForCart()
                 .updateCart()
                 .isElementPresent(By.xpath("//*[@class='product-name']"));
-
-
     }
 }

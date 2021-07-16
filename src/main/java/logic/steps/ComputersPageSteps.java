@@ -1,11 +1,11 @@
 package logic.steps;
 
 import logic.pages.ComputersPage;
-import logic.pages.HomePage;
+
 
 public class ComputersPageSteps extends ComputersPage {
 
-    private ComputersPage computersPage;
+    private final ComputersPage computersPage;
 
     public ComputersPageSteps() {
         this.computersPage = new ComputersPage();

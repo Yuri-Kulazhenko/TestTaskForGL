@@ -1,7 +1,5 @@
 package logic.steps;
 
-import com.gargoylesoftware.htmlunit.Page;
-import logic.pages.HomePage;
 import logic.pages.OrderPage;
 
 public class OrderPageSteps extends OrderPage {
@@ -15,7 +13,6 @@ public class OrderPageSteps extends OrderPage {
         getElement(orderPage.set_parameters).click();
         return this;
     }
-
 
     public OrderPageSteps addToCart(){
         getElement(orderPage.add_to_cart).click();

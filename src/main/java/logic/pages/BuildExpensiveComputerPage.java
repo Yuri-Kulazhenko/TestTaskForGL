@@ -10,7 +10,5 @@ public class BuildExpensiveComputerPage extends BasePage {
     public By set_software2 = By.xpath("//input[@id=\"product_attribute_74_8_29_89\"]");
     public By set_software3 = By.xpath("//input[@id=\"product_attribute_74_8_29_90\"]");
     public By add_to_cart = By.xpath("//input[@id=\"add-to-cart-button-74\"]");
-    public By btn_cartButton = By.xpath("//*[@id=\"topcartlink\"]/a/span[1]");
-    public By click_to_cart = By.xpath("//span[@class=\"cart-label\" and contains (text(),'Shopping cart')]");
     public By count_items = By.xpath("//span[@class=\"cart-qty\"]");
 }

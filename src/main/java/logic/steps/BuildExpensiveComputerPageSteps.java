@@ -1,10 +1,10 @@
 package logic.steps;
 
 import logic.pages.BuildExpensiveComputerPage;
-import logic.pages.ComputersPage;
 
 public class BuildExpensiveComputerPageSteps extends BuildExpensiveComputerPage {
-    private BuildExpensiveComputerPage buildExpensiveComputerPage;
+
+    private final BuildExpensiveComputerPage buildExpensiveComputerPage;
 
     public BuildExpensiveComputerPageSteps() {
         this.buildExpensiveComputerPage = new BuildExpensiveComputerPage();

@@ -16,7 +16,7 @@ public class BasePage {
         driver = DriverManager.getInstance(DriverTypes.EDGE.name()).getDriver();
 
         new WebDriverBuilder(driver)
-                .setScriptTimeout(4)
+                .setScriptTimeout(6)
                 .setFullscreenView()
                 .setPageLoadTimeout(6)
                 .getWebDriver();

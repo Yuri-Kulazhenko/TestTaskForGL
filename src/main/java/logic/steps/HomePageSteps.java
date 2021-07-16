@@ -4,7 +4,7 @@ import logic.pages.HomePage;
 
 public class HomePageSteps extends HomePage {
 
-    private HomePage homePage;
+    private final HomePage homePage;
 
     public HomePageSteps() {
         this.homePage = new HomePage();

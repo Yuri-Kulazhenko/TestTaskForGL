@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverManager {
     private static DriverManager driverManager;
-    private WebDriver driver;
+    private final WebDriver driver;
 
     private DriverManager(String type) {
         System.setProperty("webdriver.edge.driver","src/main/resources/drivers/chromedriver.exe");
